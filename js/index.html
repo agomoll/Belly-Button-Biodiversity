@@ -16,16 +16,17 @@
       <div class="col-md-12 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
+        <p>Welcome to the dashboard! This tool was created to help visualize the biologically diverse range of bacteria cultures identified with a sample of test subjects. The dataset includes the test subject ID, their basic demographic information, the top 10 cultures found on them, and their washing frequencies. Use the drop down menu to explore the data for different test subjects. </p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
-        <div class="well">
+        <div class="well" style="background-color: rgb(106, 218, 243);">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
+        <div class="panel panel-info">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
