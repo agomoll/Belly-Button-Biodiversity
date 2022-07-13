@@ -1,4 +1,4 @@
 # Belly-Button-Biodiversity
 
 
-<img src="Resources/dashboard_img.png" width="50%">
+<img src="Resources/dashboard_img.png" width="100%">
